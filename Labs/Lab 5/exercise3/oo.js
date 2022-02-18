@@ -5,17 +5,9 @@ dvSquare.style.width = "100px";
 dvSquare.style.height = "100px";
 
 
-function black(){
+if (dvSquare.onmouseover){ 
     dvSquare.style.backgroundColor= "#000000";
-    dvSquare.style.width = "100px";
-    dvSquare.style.height = "100px";
-}
+}else{
+    dvSquare.onmouseout.style.backgroundColor= "#0000FF";
 
-function blue(){
-    dvSquare.style.backgroundColor= "#0000FF";
-    dvSquare.style.width = "100px";
-    dvSquare.style.height = "100px";
-}
-
-if (square){
 }
