@@ -99,6 +99,7 @@ function distance(p1, p2) {
    Math.sqrt(dx*dx + dy*dy);
 }
 */
+/*
 let TV= {x: 300, y: 100, width: 100, height: 100,};
 function setup(){
   createCanvas(800,600);
@@ -125,4 +126,40 @@ function drawTV(TV){
   line(TV.x/2, TV.y/2, TV.x, TV.y)// antenna line
 
 }
+*/
+//Write a loop that prints to the console the numbers 1 to 10, counting forward
+let a=0;
+while (a < 11)
+{
+  console.log(a);
+  a++;
+}
+//Write a loop that prints to the console the numbers 10 to 1, counting backwards
+for (var b=10; b>0; b--) {
+  console.log(b)
+}
 
+//Given the array: 
+/*
+let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
+let sentence= ["Indiana! Yeah! University! Yeah! Purdue! Yeah! Indianapolis! Yeah!"]
+// write a loop that generates the string
+
+c=0;
+console.log(words);
+while (c>5){
+  //Log the string out to the consol
+  console.log(sentence);
+}
+*/
+
+//Given the array: 
+let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
+//Write a loop that capitalizes the words in the array using the 
+d=0;
+console.log(words);
+while (d<5){
+  words[d]=words.toUpperCase
+  d++;
+} 
+//Log the modified array out to the console.
