@@ -6,8 +6,11 @@ dvSquare.style.height = "100px";
 
 
 if (dvSquare.onmouseover){ 
-    dvSquare.style.backgroundColor= "#000000";
+    dvSquare.style.backgroundColor= "#0000FF";
 }else{
-    dvSquare.onmouseout.style.backgroundColor= "#0000FF";
+    if (dvSquare.onmouseout)
+    dvSquare.style.backgroundColor= "#000000";
+    
 
 }
+

@@ -128,6 +128,7 @@ function drawTV(TV){
 }
 */
 //Write a loop that prints to the console the numbers 1 to 10, counting forward
+/*
 let a=0;
 while (a < 11)
 {
@@ -152,7 +153,7 @@ while (c>5){
   console.log(sentence);
 }
 */
-
+/*
 //Given the array: 
 let words = [ "Indiana", "University", "Purdue", "University", "Indianapolis" ]
 //Write a loop that capitalizes the words in the array using the 
@@ -163,3 +164,10 @@ while (d<5){
   d++;
 } 
 //Log the modified array out to the console.
+*/
+
+let myArray = ["Hello","Class"];
+let arrayLength = myArray.length;
+for (let i = 0; i < arrayLength; i++) {
+    console.log(myArray[i]);
+}
