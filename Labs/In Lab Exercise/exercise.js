@@ -165,9 +165,10 @@ while (d<5){
 } 
 //Log the modified array out to the console.
 */
-
+/*
 let myArray = ["Hello","Class"];
 let arrayLength = myArray.length;
 for (let i = 0; i < arrayLength; i++) {
     console.log(myArray[i]);
 }
+*/

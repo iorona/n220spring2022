@@ -12,6 +12,18 @@ Draw a circle at res.x, res.y, and with a radius of 10.
 (res is technically an 'object', which we will learn more about next week)
 */
 //Add one argument to polar point (r)
+function setup(){
+    createCanvas(800,800);
+}
+
+function draw (){
+    let res=polarPoint(40)
+    translate(400,400);
+    circle(res.x,res.y,10)
+}
 function polarPoint(r){
+    let x= r * Math.sin(mouseX);
+    let y= r * Math.cos(mouseX);
+    return createVector(x,y); 
 
 }
