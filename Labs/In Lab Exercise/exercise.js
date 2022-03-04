@@ -64,6 +64,7 @@ function setup() {
 }
 */
 /*
+------------------------------------
 let current = { x: 0, y: 0 };
 
 function setup() {
@@ -77,7 +78,7 @@ function draw() {
     current.x = mouseX;
     current.y = mouseY;
   }
-
+---------------------------------------------------------
 let click = distance( current, { x: mouseX, y: mouseY });
 
    
@@ -100,6 +101,7 @@ function distance(p1, p2) {
 }
 */
 /*
+----------------------------------------------------
 let TV= {x: 300, y: 100, width: 100, height: 100,};
 function setup(){
   createCanvas(800,600);
@@ -129,6 +131,7 @@ function drawTV(TV){
 */
 //Write a loop that prints to the console the numbers 1 to 10, counting forward
 /*
+-----------------------------------------------------
 let a=0;
 while (a < 11)
 {
