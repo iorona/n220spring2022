@@ -24,13 +24,35 @@ let dvRock= document.getElementById("rock")
 let dvPaper= document.getElementById("paper")
 let dvScissors= document.getElementById("scissors")
 let dvGuard= document.getElementById("guard")
-
-score=0
-
-
-function clickDiv(x){
-    if (dvGuard){
-        break; + score - 0.5
+let dvScore=document.getElementById("score")
+let dvDisplay= document.getElementById("display")
+let score=0
+let outcome = ""
+game=["rock", "paper", "scissors", "guard"]
+function clickDiv(user){
+    if (user != 4 ){
+       let cpu= Math.ceil(Math.random()*3);
+        if (cpu==user){ 
+            let outcome = "Tied"
+        }else if (user==1 && cpu==3){
+            outcome == "user wins"
+            score+=1;
+        }else if(cpu==1 && user==3){
+            outcome == "cpu wins"
+            score-=1;
+        }else if (user<cpu){
+            outcome == "cpu wins"
+            score-=1;
+        }else if (user>cpu){
+            outcome == "user wins"
+            score+=1;
+        }
+        dvDisplay.innerHTML = "You chose " + game[user-1] + " Computer chose " + game[cpu-1];
+    }else{
+        score-= .5;
+        dvDisplay.innerHTML;
     }
+
+    dvScore.innerHTML = score;
 
 }
