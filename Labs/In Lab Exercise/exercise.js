@@ -175,3 +175,17 @@ for (let i = 0; i < arrayLength; i++) {
     console.log(myArray[i]);
 }
 */
+
+let txtName = document.getElementById("txtName");
+
+let dvStoryResult = document.getElementById("storyResult");
+
+function generateStory() {
+  let userName= txtName.value;
+  //txtAmount = document.getElementbyId ("txtAmount")
+  let val = `${userName} ${userName} ${userName}`;
+  dvStoryResult.innerHTML = val;
+
+  txtName.value="";
+
+}
