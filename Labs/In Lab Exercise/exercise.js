@@ -175,7 +175,7 @@ for (let i = 0; i < arrayLength; i++) {
     console.log(myArray[i]);
 }
 */
-
+/*
 let txtName = document.getElementById("txtName");
 
 let dvStoryResult = document.getElementById("storyResult");
@@ -189,3 +189,19 @@ function generateStory() {
   txtName.value="";
 
 }
+*/
+
+let divTictactoe = document.getElementById("tictactoe")
+
+let tttgrid= [
+  ['x','o','x'],
+  ['o','x','o'],
+  ['x','o','o']
+
+];
+
+
+console.log(tttgrid);
+
+
+
